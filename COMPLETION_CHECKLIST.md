@@ -49,3 +49,11 @@ Rule: Check an item only after comparing against the source or testing the publi
 ### Nereus image verification detail
 - [x] Source homepage audit captured six Base44-hosted image roles: port hero, warehouse, plywood, aluminum, bronze and copper. The repository contains six locally hosted candidate files for those roles.
 - [ ] Visually compare every source/local pair at desktop and mobile sizes; verify exact crop/focal point, resolution, alt text and no Base44 requests in the deployed copy.
+
+## Repository-level checks
+- [x] Inspected the repository file tree and confirmed the root homepage file and deployment workflow path.
+- [x] Compared local asset filenames against references in the root homepage HTML.
+- [x] Scanned the root homepage HTML for Base44, Supabase, and Unsplash URL references: none found in `index.html`.
+- [ ] Scan every repository file, document, metadata field and deployed network request for any remaining third-party/Base44 runtime or media dependency.
+- [ ] Confirm all listed local assets are source-matched and used in the appropriate page; unused files are not removed until their role is understood.
+- [ ] Verify the latest deployment for this checklist commit and smoke-test every route and asset after deployment.
