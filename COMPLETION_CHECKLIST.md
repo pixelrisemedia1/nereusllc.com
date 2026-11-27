@@ -45,3 +45,7 @@ Rule: Check an item only after comparing against the source or testing the publi
 - [x] Confirmed the source uses six Base44-hosted images (hero, warehouse, plywood, aluminum, bronze, copper) and the copy has six local image candidates.
 - [ ] Compare each of the six source images pixel-visually with its local counterpart and confirm crop, dimensions, focus, loading, and alt text in the deployed copy.
 - [ ] Finish full page-content, mobile-layout, link, legal-content, and independent asset/runtime checks.
+
+### Nereus image verification detail
+- [x] Source homepage audit captured six Base44-hosted image roles: port hero, warehouse, plywood, aluminum, bronze and copper. The repository contains six locally hosted candidate files for those roles.
+- [ ] Visually compare every source/local pair at desktop and mobile sizes; verify exact crop/focal point, resolution, alt text and no Base44 requests in the deployed copy.
