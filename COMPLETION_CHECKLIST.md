@@ -39,3 +39,9 @@ Rule: Check an item only after comparing against the source or testing the publi
 - [ ] Check browser console, failed network requests, broken links, 404s, image loading and performance on desktop/mobile.
 - [ ] Verify GitHub Actions deployment succeeds; open the live deployed copy in a fresh session and directly load/refresh every route.
 - [ ] Record final verification date, deployed commit, public URL, and any remaining limitation. Custom domain/DNS is intentionally deferred until requested.
+
+## Verified audit notes — 2026-11-27
+- [x] Inspected source and copied homepages; both expose About, Products and Contact sections, commodity cards, company copy and inquiry email links.
+- [x] Confirmed the source uses six Base44-hosted images (hero, warehouse, plywood, aluminum, bronze, copper) and the copy has six local image candidates.
+- [ ] Compare each of the six source images pixel-visually with its local counterpart and confirm crop, dimensions, focus, loading, and alt text in the deployed copy.
+- [ ] Finish full page-content, mobile-layout, link, legal-content, and independent asset/runtime checks.
