@@ -57,3 +57,8 @@ Rule: Check an item only after comparing against the source or testing the publi
 - [ ] Scan every repository file, document, metadata field and deployed network request for any remaining third-party/Base44 runtime or media dependency.
 - [ ] Confirm all listed local assets are source-matched and used in the appropriate page; unused files are not removed until their role is understood.
 - [ ] Verify the latest deployment for this checklist commit and smoke-test every route and asset after deployment.
+
+## Nereus LLC source inventory (checked 2026-11-27)
+- [x] Confirmed public source is a single-page layout with top/about/products/contact anchors; six images cover the port hero, warehouse, plywood, aluminum, bronze and copper.
+- [x] Confirmed direct email links are the only visible contact actions; no video or document-download element appeared in the homepage media inventory.
+- [ ] Compare all source copy, card details, images, spacing and mobile behavior; verify whether source has any additional public route beyond the one-page anchors.
