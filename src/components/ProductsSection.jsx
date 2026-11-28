@@ -3,25 +3,25 @@ import { motion } from "framer-motion";
 const products = [
   {
     name: "Plywood",
-    image: "${import.meta.env.BASE_URL}assets/plywood.webp",
+    image: import.meta.env.BASE_URL + "assets/plywood.webp",
     description:
       "Premium-grade plywood sourced from trusted mills — available in birch, hardwood, and marine-grade varieties for construction and manufacturing.",
   },
   {
     name: "Aluminum",
-    image: "${import.meta.env.BASE_URL}assets/aluminium.webp",
+    image: import.meta.env.BASE_URL + "assets/aluminium.webp",
     description:
       "High-quality aluminum sheets, coils, and extrusions for aerospace, automotive, and industrial applications. Multiple alloy grades available.",
   },
   {
     name: "Bronze",
-    image: "${import.meta.env.BASE_URL}assets/bronze.webp",
+    image: import.meta.env.BASE_URL + "assets/bronze.webp",
     description:
       "Durable bronze alloys in ingots, bars, and custom forms — ideal for marine hardware, bearings, and decorative architectural elements.",
   },
   {
     name: "Copper",
-    image: "${import.meta.env.BASE_URL}assets/copper.webp",
+    image: import.meta.env.BASE_URL + "assets/copper.webp",
     description:
       "Pure copper cathodes, pipes, sheets, and wire rod. Sourced from certified producers for electrical, plumbing, and industrial use.",
   },
